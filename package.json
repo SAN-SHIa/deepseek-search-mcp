@@ -6,21 +6,30 @@
   "bin": {
     "deepseek-search-mcp": "./server.mjs"
   },
-  "files": ["server.mjs", "README.md", "LICENSE"],
+  "files": [
+    "server.mjs",
+    "README.md",
+    "LICENSE"
+  ],
   "engines": {
     "node": ">=18"
   },
   "scripts": {
     "start": "node server.mjs"
   },
-  "keywords": ["mcp", "deepseek", "search", "model-context-protocol"],
+  "keywords": [
+    "mcp",
+    "deepseek",
+    "search",
+    "model-context-protocol"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/115707261/deepseek-search-mcp.git"
+    "url": "git+https://github.com/SAN-SHIa/deepseek-search-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/115707261/deepseek-search-mcp/issues"
+    "url": "https://github.com/SAN-SHIa/deepseek-search-mcp/issues"
   },
-  "homepage": "https://github.com/115707261/deepseek-search-mcp#readme"
+  "homepage": "https://github.com/SAN-SHIa/deepseek-search-mcp#readme"
 }
