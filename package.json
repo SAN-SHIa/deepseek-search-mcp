@@ -4,7 +4,7 @@
   "description": "MCP server for DeepSeek Web Search and Fetch tools",
   "type": "module",
   "bin": {
-    "deepseek-search-mcp": "./server.mjs"
+    "deepseek-search-mcp": "server.mjs"
   },
   "files": [
     "server.mjs",
