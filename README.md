@@ -17,7 +17,7 @@
 ```bash
 codex mcp add deepseek-search \
   --env DEEPSEEK_API_KEY=你的DeepSeekAPIKey \
-  -- npx -y @sanshia/deepseek-search-mcp
+  -- npx -y @ythirty/deepseek-search-mcp
 ```
 
 ## 在 Claude Desktop / Cursor 等客户端中配置
@@ -27,7 +27,7 @@ codex mcp add deepseek-search \
   "mcpServers": {
     "deepseek-search": {
       "command": "npx",
-      "args": ["-y", "@sanshia/deepseek-search-mcp"],
+      "args": ["-y", "@ythirty/deepseek-search-mcp"],
       "env": {
         "DEEPSEEK_API_KEY": "你的DeepSeekAPIKey"
       }
